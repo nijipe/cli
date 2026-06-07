@@ -1,0 +1,19 @@
+{
+  "name": "@nijipe/cli",
+  "version": "1.0.0",
+  "description": "Command-line tools for Nijipe developers.",
+  "main": "dist/index.js",
+  "bin": {
+    "nijipe": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nijipe",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
